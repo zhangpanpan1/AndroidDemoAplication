@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zpp.activity"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.zpp.activity.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.zpp.activity.ProjectActivity" >
+            <Intent-filter>
+                <action android:name="PROJECT" />
+            </Intent-filter>
+        </activity>
+        <activity android:name="com.zpp.activity.ComponentActivity" >
+            <Intent-filter>
+                <action android:name="COMPONENT" />
+            </Intent-filter>
+        </activity>
+        <activity android:name="com.zpp.componentactivity.ParcelMain" >
+        </activity>
+        <activity android:name="com.zpp.componentactivity.ParcelTestActivity" >
+        </activity>
+        <activity android:name="com.zpp.componentactivity.ViewPageActivity" >
+        </activity>
+        <activity android:name="com.zpp.project.snow.SnowActivity" >
+        </activity>
+        <activity android:name="com.zpp.activity.PictureActivity" >
+        </activity>
+        <activity android:name="com.zpp.projectactivity.BlurImageActivity" >
+        </activity>
+        <activity android:name="com.zpp.projectactivity.OldImageActivity" >
+        </activity>
+        <activity android:name="com.zpp.projectactivity.ReliefActivity" >
+        </activity>
+        <activity android:name="com.zpp.projectactivity.HandWritingActivity" >
+        </activity>
+        <activity android:name="com.zpp.projectactivity.ThumbnailActivity" >
+        </activity>
+        <activity android:name="com.zpp.activity.ImageFilterActivity" >
+        </activity>
+        <activity android:name="com.zpp.activity.PicActivity" >
+        </activity>
+        <activity android:name="com.zpp.activity.HandlerActivity" >
+        </activity>
+        <activity android:name="com.zpp.componentactivity.RequestInfoActivity" >
+        </activity>
+        <activity android:name="com.zpp.componentactivity.ReqActivity" >
+        </activity>
+        <activity android:name="com.zpp.componentactivity.ImageToneActivity" >
+        </activity>
+        <activity android:name="com.zpp.componentactivity.ControlBitMapActivity" >
+        </activity>
+        <activity android:name="com.zpp.componentactivity.SubThreadActivity" >
+        </activity>
+        <activity android:name="com.peter.viewpage.MainActivity" >
+        </activity>
+        <activity android:name="com.zpp.componentactivity.CollectionDemoActivity" >
+        </activity>
+        <activity android:name="com.zpp.componentactivity.ViewPageMainActivity" >
+        </activity>
+    </application>
+
+</manifest>

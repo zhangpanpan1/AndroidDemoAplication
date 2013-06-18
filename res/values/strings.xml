@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidDemoAplication</string>
+   <!--  <string name="action_settings">Settings</string> -->
+    <string name="hello_world">Hello world!</string>
+    <string name="parcel">点击传出一个person对象</string>
+    <string name="blurimage">高斯模糊</string>
+    <string name="cancelblue">取消模糊</string>
+    <string name="handler">点击获得界面刷新</string>
+    <string name="saturation">饱和度</string>
+    <string name="contrast">色相</string>
+    <string name="lightness">亮度</string>
+    <string name="tab_1">动态</string>
+    <string name="tab_2">群组</string>
+    <string name="tab_3">好友</string>
+    <string name="tab_4">会话</string>
+    <string name="dummy_section_text">Section %1d is just a dummy section.</string>
+    <string name="demo_external_activity">Demo External Activity</string>
+    <string name="demo_collection">Demo Collection</string>
+    <string name="action_settings">Demo Collection</string>
+
+</resources>

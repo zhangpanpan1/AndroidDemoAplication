@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="item">
+        <item>实现一些功能的小程序</item>
+        <item>基础知识掌握</item>
+        <item>图片特效处理</item>
+    </string-array>
+    
+     <string-array name="project_item">
+        <item>雪花</item>
+        <item>圆心菜单</item>
+        <item>RemoveCloth</item>
+        <item>对图片进行的处理</item>
+    </string-array>
+    
+      <string-array name="photo_item">
+        <item>图片模糊</item>
+        <item>怀旧效果</item>
+        <item>锐化效果</item>
+        <item>浮雕效果</item>
+        <item>底片效果</item>
+        <item>光照效果</item>
+        <item>图片叠加效果</item>
+        <item>光晕效果</item>
+        <item>涂鸦(能清屏)</item>
+        <item>饱和度、色相、亮度</item>
+        <item>熔铸特效</item>
+        <item>冰冻特效</item>
+        <item>BitMap旋转</item>
+        <item>BitMap缩放</item>
+        <item>图片的裁剪</item>
+        <item>图片缩略图</item>
+        </string-array>
+    
+    <string-array name="component_item">
+        <item>Pacelable</item>
+        <item>Handler</item>
+        <item>ActivityForResult</item>
+        <item>子线程操纵UI</item>
+        <item>ViewPage</item>
+        <item>ViewPage_google</item>
+    </string-array>
+    
+    
+    
+
+</resources>
